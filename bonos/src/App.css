@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.fer {
+  color: black;
+  background-color:none;
+  font-family: 'Montserrat light';
+  font-size: 18px;
+  display:flow-root;
+  text-decoration:underline;
+  margin:0px;
+  padding: -100px;
+  top:-10px;
+  text-align: left;
+}
+.paridad {
+  color: black;
+  text-align: left;
+  border: 1px solid black;
+  width: 125px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(14, 5, 5);
+}
+
+.App-link {
+  color: #02071ad2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
